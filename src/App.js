@@ -7,6 +7,7 @@ import ShoeDetails from './components/ShoeDetails';
 import BestCollection from './components/BestCollection';
 import About from './components/About';
 import Cart from './components/Cart';
+import Checkout from './components/Checkout';
 import Favourite from './components/Favourites';
 import Profile from './components/profile';
 import Address from './components/Address';
@@ -85,6 +86,7 @@ const App = () => {
         />
         <Route path="/favourites" element={<Favourite />} />
         <Route path="/profile" element={<Profile />} />
+        <Route path="/checkout" element={<Checkout />} />
         <Route path="/address" element={<Address />} />
         <Route path="/change-password" element={<ChangePassword />} />
         <Route path="/order-history" element={<OrderHistory />} />
