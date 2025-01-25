@@ -4,7 +4,7 @@ const About = () => {
   return (
     <div style={styles.pageContainer}>
       <header style={styles.header}>
-        <h1 style={styles.logo}>Sneakerskick</h1>
+        <h1 style={styles.logo}>Sneakerkick</h1>
       </header>
       <main style={styles.mainContent}>
         <section style={styles.section}>
