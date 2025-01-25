@@ -11,7 +11,7 @@ const Home = ({ isLoggedIn, onLogout }) => {
       <main style={styles.mainContent}>
         <Counter />
         <section style={styles.bestCollectionSection}>
-          <h2 style={styles.bestCollectionTitle}>Best Collection</h2>
+          <h2 style={styles.bestCollectionTitle}>Best Product Collection</h2>
           <BestCollectionCarousel />
         </section>
       </main>
